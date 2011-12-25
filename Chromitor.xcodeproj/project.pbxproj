@@ -21,12 +21,12 @@
 		AAC0D32214A7E60A002ABEF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		AAC0D32314A7E60A002ABEF4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AAC0D32414A7E60A002ABEF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AAC0D32714A7E60A002ABEF4 /* Chromitor-Info.plist */ = {isa = PBXFileReference; path = "Chromitor-Info.plist"; sourceTree = "<group>"; };
+		AAC0D32714A7E60A002ABEF4 /* Chromitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chromitor-Info.plist"; sourceTree = "<group>"; };
 		AAC0D32914A7E60A002ABEF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAC0D32B14A7E60A002ABEF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AAC0D32D14A7E60A002ABEF4 /* Chromitor-Prefix.pch */ = {isa = PBXFileReference; path = "Chromitor-Prefix.pch"; sourceTree = "<group>"; };
+		AAC0D32D14A7E60A002ABEF4 /* Chromitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chromitor-Prefix.pch"; sourceTree = "<group>"; };
 		AAC0D32F14A7E60A002ABEF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		AAC0D33114A7E60A002ABEF4 /* ChromitorAppDelegate.h */ = {isa = PBXFileReference; path = ChromitorAppDelegate.h; sourceTree = "<group>"; };
+		AAC0D33114A7E60A002ABEF4 /* ChromitorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromitorAppDelegate.h; sourceTree = "<group>"; };
 		AAC0D33214A7E60A002ABEF4 /* ChromitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromitorAppDelegate.m; sourceTree = "<group>"; };
 		AAC0D33514A7E60A002ABEF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
