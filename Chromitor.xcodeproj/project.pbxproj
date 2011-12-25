@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAC0D32014A7E60A002ABEF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC0D31F14A7E60A002ABEF4 /* Cocoa.framework */; };
+		AAC0D32A14A7E60A002ABEF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAC0D32814A7E60A002ABEF4 /* InfoPlist.strings */; };
+		AAC0D32C14A7E60A002ABEF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC0D32B14A7E60A002ABEF4 /* main.m */; };
+		AAC0D33014A7E60A002ABEF4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AAC0D32E14A7E60A002ABEF4 /* Credits.rtf */; };
+		AAC0D33314A7E60A002ABEF4 /* ChromitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC0D33214A7E60A002ABEF4 /* ChromitorAppDelegate.m */; };
+		AAC0D33614A7E60A002ABEF4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC0D33414A7E60A002ABEF4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAC0D31B14A7E60A002ABEF4 /* Chromitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chromitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC0D31F14A7E60A002ABEF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AAC0D32214A7E60A002ABEF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AAC0D32314A7E60A002ABEF4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AAC0D32414A7E60A002ABEF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAC0D32714A7E60A002ABEF4 /* Chromitor-Info.plist */ = {isa = PBXFileReference; path = "Chromitor-Info.plist"; sourceTree = "<group>"; };
+		AAC0D32914A7E60A002ABEF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAC0D32B14A7E60A002ABEF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAC0D32D14A7E60A002ABEF4 /* Chromitor-Prefix.pch */ = {isa = PBXFileReference; path = "Chromitor-Prefix.pch"; sourceTree = "<group>"; };
+		AAC0D32F14A7E60A002ABEF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AAC0D33114A7E60A002ABEF4 /* ChromitorAppDelegate.h */ = {isa = PBXFileReference; path = ChromitorAppDelegate.h; sourceTree = "<group>"; };
+		AAC0D33214A7E60A002ABEF4 /* ChromitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromitorAppDelegate.m; sourceTree = "<group>"; };
+		AAC0D33514A7E60A002ABEF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC0D31814A7E60A002ABEF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC0D32014A7E60A002ABEF4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAC0D31014A7E60A002ABEF4 = {
+			isa = PBXGroup;
+			children = (
+				AAC0D32514A7E60A002ABEF4 /* Chromitor */,
+				AAC0D31E14A7E60A002ABEF4 /* Frameworks */,
+				AAC0D31C14A7E60A002ABEF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC0D31C14A7E60A002ABEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC0D31B14A7E60A002ABEF4 /* Chromitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC0D31E14A7E60A002ABEF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC0D31F14A7E60A002ABEF4 /* Cocoa.framework */,
+				AAC0D32114A7E60A002ABEF4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAC0D32114A7E60A002ABEF4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC0D32214A7E60A002ABEF4 /* AppKit.framework */,
+				AAC0D32314A7E60A002ABEF4 /* CoreData.framework */,
+				AAC0D32414A7E60A002ABEF4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AAC0D32514A7E60A002ABEF4 /* Chromitor */ = {
+			isa = PBXGroup;
+			children = (
+				AAC0D33114A7E60A002ABEF4 /* ChromitorAppDelegate.h */,
+				AAC0D33214A7E60A002ABEF4 /* ChromitorAppDelegate.m */,
+				AAC0D33414A7E60A002ABEF4 /* MainMenu.xib */,
+				AAC0D32614A7E60A002ABEF4 /* Supporting Files */,
+			);
+			path = Chromitor;
+			sourceTree = "<group>";
+		};
+		AAC0D32614A7E60A002ABEF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC0D32714A7E60A002ABEF4 /* Chromitor-Info.plist */,
+				AAC0D32814A7E60A002ABEF4 /* InfoPlist.strings */,
+				AAC0D32B14A7E60A002ABEF4 /* main.m */,
+				AAC0D32D14A7E60A002ABEF4 /* Chromitor-Prefix.pch */,
+				AAC0D32E14A7E60A002ABEF4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC0D31A14A7E60A002ABEF4 /* Chromitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC0D33914A7E60A002ABEF4 /* Build configuration list for PBXNativeTarget "Chromitor" */;
+			buildPhases = (
+				AAC0D31714A7E60A002ABEF4 /* Sources */,
+				AAC0D31814A7E60A002ABEF4 /* Frameworks */,
+				AAC0D31914A7E60A002ABEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chromitor;
+			productName = Chromitor;
+			productReference = AAC0D31B14A7E60A002ABEF4 /* Chromitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC0D31214A7E60A002ABEF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "NullTheory Ltd";
+			};
+			buildConfigurationList = AAC0D31514A7E60A002ABEF4 /* Build configuration list for PBXProject "Chromitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAC0D31014A7E60A002ABEF4;
+			productRefGroup = AAC0D31C14A7E60A002ABEF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC0D31A14A7E60A002ABEF4 /* Chromitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC0D31914A7E60A002ABEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC0D32A14A7E60A002ABEF4 /* InfoPlist.strings in Resources */,
+				AAC0D33014A7E60A002ABEF4 /* Credits.rtf in Resources */,
+				AAC0D33614A7E60A002ABEF4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC0D31714A7E60A002ABEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC0D32C14A7E60A002ABEF4 /* main.m in Sources */,
+				AAC0D33314A7E60A002ABEF4 /* ChromitorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAC0D32814A7E60A002ABEF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC0D32914A7E60A002ABEF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AAC0D32E14A7E60A002ABEF4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC0D32F14A7E60A002ABEF4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AAC0D33414A7E60A002ABEF4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC0D33514A7E60A002ABEF4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAC0D33714A7E60A002ABEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAC0D33814A7E60A002ABEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAC0D33A14A7E60A002ABEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromitor/Chromitor-Prefix.pch";
+				INFOPLIST_FILE = "Chromitor/Chromitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAC0D33B14A7E60A002ABEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromitor/Chromitor-Prefix.pch";
+				INFOPLIST_FILE = "Chromitor/Chromitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC0D31514A7E60A002ABEF4 /* Build configuration list for PBXProject "Chromitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC0D33714A7E60A002ABEF4 /* Debug */,
+				AAC0D33814A7E60A002ABEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC0D33914A7E60A002ABEF4 /* Build configuration list for PBXNativeTarget "Chromitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC0D33A14A7E60A002ABEF4 /* Debug */,
+				AAC0D33B14A7E60A002ABEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC0D31214A7E60A002ABEF4 /* Project object */;
+}

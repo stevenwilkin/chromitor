@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Chromitor' target in the 'Chromitor' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
