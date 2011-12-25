@@ -10,8 +10,7 @@
 
 @implementation ChromitorAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
+- (void)displayNumberTabs {
     // get number of open tabs
     NSString *command = @"tell application \"Google Chrome\" to get count of tabs of windows";
     NSAppleScript *script = [[NSAppleScript alloc] initWithSource: command];
@@ -22,6 +21,11 @@
     NSStatusItem *theItem = [bar statusItemWithLength:NSVariableStatusItemLength];
     [theItem retain];
     [theItem setTitle: [results stringValue]];
+}
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+    [self displayNumberTabs];
 }
 
 @end

@@ -11,4 +11,6 @@
 @interface ChromitorAppDelegate : NSObject <NSApplicationDelegate> {
 }
 
+- (void)displayNumberTabs;
+
 @end
