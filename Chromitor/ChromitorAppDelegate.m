@@ -10,16 +10,14 @@
 
 @implementation ChromitorAppDelegate
 
+@synthesize appleScript;
 @synthesize statusItem;
 @synthesize menu;
 
 
 - (void)displayNumberTabs {
     // get number of open tabs
-    NSString *command = @"tell application \"Google Chrome\" to get count of tabs of windows";
-    NSAppleScript *script = [[NSAppleScript alloc] initWithSource: command];
-    NSAppleEventDescriptor *results = [script executeAndReturnError:nil];
-    
+    NSAppleEventDescriptor *results = [self.appleScript executeAndReturnError:nil];
     // set status item
     [self.statusItem setTitle: [results stringValue]];
 }
@@ -30,6 +28,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    // create AppleScript command
+    NSString *command = @"tell application \"Google Chrome\" to get count of tabs of windows";
+    self.appleScript = [[NSAppleScript alloc] initWithSource: command];
+    
     // create the status item
     NSStatusBar *bar = [NSStatusBar systemStatusBar];
     self.statusItem = [bar statusItemWithLength:NSVariableStatusItemLength];

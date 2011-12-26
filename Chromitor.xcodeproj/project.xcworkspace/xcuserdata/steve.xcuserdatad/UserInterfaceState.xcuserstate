@@ -1239,9 +1239,9 @@
 			</array>
 		</dict>
 		<string>HideAllIssues</string>
-		<real>346554093.59316301</real>
-		<string>{0, 454}</string>
-		<string>{448, 0}</string>
+		<real>346556928.68898797</real>
+		<string>{0, 533}</string>
+		<string>{383, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1287,9 +1287,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>346554232.15152401</real>
-		<string>{0, 1457}</string>
-		<string>{997, 80}</string>
+		<real>346557482.85198301</real>
+		<string>{0, 1521}</string>
+		<string>{406, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1818,7 +1818,7 @@
 				<integer>180</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>346554131.54733801</real>
+			<real>346557006.90992999</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -1829,7 +1829,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 01:02</string>
+		<string>Today at 01:50</string>
 		<integer>234</integer>
 		<string>Chromitor</string>
 		<dict>
@@ -2916,10 +2916,10 @@
 				</dict>
 			</array>
 		</dict>
-		<real>346554232.15208298</real>
-		<string>{0, 1457}</string>
-		<string>{997, 80}</string>
-		<string>-applicationDidFinishLaunching:</string>
+		<real>346557482.85254902</real>
+		<string>{0, 1521}</string>
+		<string>{406, 0}</string>
+		<string>-displayNumberTabs</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>

@@ -9,10 +9,12 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ChromitorAppDelegate : NSObject <NSApplicationDelegate> {
+    NSAppleScript *appleScript;
     NSStatusItem *statusItem;
     IBOutlet NSMenu *menu;
 }
 
+@property (assign) NSAppleScript *appleScript;
 @property (assign) NSStatusItem *statusItem;
 @property (assign) NSMenu *menu;
 
