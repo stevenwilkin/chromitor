@@ -9,8 +9,12 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ChromitorAppDelegate : NSObject <NSApplicationDelegate> {
+    NSStatusItem *statusItem;
 }
 
+@property (assign) NSStatusItem *statusItem;
+
 - (void)displayNumberTabs;
+- (void)fireTimer:(NSTimer *)aTimer;
 
 @end

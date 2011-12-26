@@ -10,6 +10,9 @@
 
 @implementation ChromitorAppDelegate
 
+@synthesize statusItem;
+
+
 - (void)displayNumberTabs {
     // get number of open tabs
     NSString *command = @"tell application \"Google Chrome\" to get count of tabs of windows";
@@ -17,15 +20,29 @@
     NSAppleEventDescriptor *results = [script executeAndReturnError:nil];
     
     // set status item
-    NSStatusBar *bar = [NSStatusBar systemStatusBar];
-    NSStatusItem *theItem = [bar statusItemWithLength:NSVariableStatusItemLength];
-    [theItem retain];
-    [theItem setTitle: [results stringValue]];
+    [self.statusItem setTitle: [results stringValue]];
+}
+
+- (void)fireTimer:(NSTimer *)aTimer {
+    [self displayNumberTabs];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    // create the status item
+    NSStatusBar *bar = [NSStatusBar systemStatusBar];
+    self.statusItem = [bar statusItemWithLength:NSVariableStatusItemLength];
+    [self.statusItem retain]; 
+    
+    // initial setting of status item
     [self displayNumberTabs];
+    
+    // update every second
+    [NSTimer scheduledTimerWithTimeInterval: 1.0
+                                     target: self
+                                   selector: @selector(fireTimer:)
+                                   userInfo: nil
+                                    repeats: YES];
 }
 
 @end
