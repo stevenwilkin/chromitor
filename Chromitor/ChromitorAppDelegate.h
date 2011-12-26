@@ -10,9 +10,11 @@
 
 @interface ChromitorAppDelegate : NSObject <NSApplicationDelegate> {
     NSStatusItem *statusItem;
+    IBOutlet NSMenu *menu;
 }
 
 @property (assign) NSStatusItem *statusItem;
+@property (assign) NSMenu *menu;
 
 - (void)displayNumberTabs;
 - (void)fireTimer:(NSTimer *)aTimer;

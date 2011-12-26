@@ -11,6 +11,7 @@
 @implementation ChromitorAppDelegate
 
 @synthesize statusItem;
+@synthesize menu;
 
 
 - (void)displayNumberTabs {
@@ -33,6 +34,8 @@
     NSStatusBar *bar = [NSStatusBar systemStatusBar];
     self.statusItem = [bar statusItemWithLength:NSVariableStatusItemLength];
     [self.statusItem retain]; 
+    [self.statusItem setHighlightMode:YES];
+    [self.statusItem setMenu:self.menu];
     
     // initial setting of status item
     [self displayNumberTabs];
