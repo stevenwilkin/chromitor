@@ -29,7 +29,12 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // create AppleScript command
-    NSString *command = @"tell application \"Google Chrome\" to get count of tabs of windows";
+    NSString *command = @"\
+        if application \"Google Chrome\" is running then \n\
+            tell application \"Google Chrome\" to get count of tabs of windows \n\
+        else \n\
+            return 0 \n\
+        end if";
     self.appleScript = [[NSAppleScript alloc] initWithSource: command];
     
     // create the status item
